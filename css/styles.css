@@ -1,0 +1,582 @@
+body {
+  font-family: 'Slabo 27px', serif;
+}
+
+/* NAVIGATION */
+
+.navbar-default {
+  background: inherit;
+  border: 0pt;
+  border-color: transparent;
+}
+
+.navbar-header {
+  border: 0pt;
+  border-color: transparent;
+}
+
+
+.navbar-default .navbar-nav {
+  min-height: 590px;
+}
+
+
+.navbar-default .navbar-nav li {
+  color: #000000;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-default .navbar-nav li a{
+  color: #000000;
+  padding: 10px 10px 10px 10px;
+  font-size: 15pt;
+  letter-spacing: 1;
+  text-align: left;
+}
+
+
+.navbar-default .navbar-nav a,
+.navbar-default .navbar-nav a:hover,
+.navbar-default .navbar-nav a:focus {
+  color: #000000;
+  background-color: #F15A29;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  width: 35px;
+  height: 2px;
+}
+
+.navbar-default .navbar-toggle{
+padding: 10px 30px 10px 30px;
+}
+
+.navbar-default .navbar-toggle.collapse {
+  background-color: #FFFFFF;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle.collapse .icon-bar {
+  background-color: #FFFFFF;
+  border-color: transparent;
+}
+
+
+.navbar-default .navbar-toggle{
+ border-color:transparent;
+}
+    .navbar-default .navbar-toggle .icon-bar{
+       background-color:#FFFFFF;
+    }
+
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;;
+  border-color: transparent;
+  opacity: 0.4;
+}
+
+
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;;
+  border-color: transparent;
+}
+
+
+.navbar-nav {
+  background: #F15A29;
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 990px) {
+  .navbar-toggle {
+    display: block!important;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-collapse.collapse.in {
+    display: block!important;
+  }
+  .collapsing {
+    overflow: hidden!important;
+  }
+}
+
+/* LANDING PAGE */
+
+.landing-page {
+  background: url(../assets/backgrounds/landing.jpg) no-repeat center fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	min-height:640px;
+	text-align:center;
+}
+
+
+.logo {
+  display: block;
+}
+
+.tagline {
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 50px;
+}
+
+/* Meals Top*/
+
+.meals{
+  padding-top: 0px;
+  background: #FFFFFF;
+}
+
+.row-1 {
+  background-color: #d3d3d3;
+  color: #000000;
+  min-height: 75px;
+  padding-top: 18px;
+  font-size: 20pt;
+}
+
+.row-1 a{
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+}
+
+.row-1 a:hover{
+  color: #F15A29;
+  cursor: pointer;
+}
+
+.row-1 a:focus{
+  outline: none;
+}
+
+.row-1, #HHModal, #HHModalLabel {
+  color: #ffffff;
+}
+
+.row-1, #HHModal, .modal-header button {
+  color: #ffffff;
+}
+
+
+.row-2 {
+  background-color:#F15A29;
+  color:#FFFFFF;
+  min-height: 75px;
+  padding-top: 18px;
+  font-size: 20pt;
+}
+
+.row-2 a{
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.row-2 a:hover{
+  color: #d3d3d3;
+  cursor: pointer;
+}
+
+.row-2 a:focus{
+  outline: none;
+}
+
+.row-2, #HHModal, .modal-header button {
+  color: #ffffff;
+}
+
+.column-2 {
+  background: url(../assets/foodtop/breakfast.jpg) no-repeat;
+  color: #FFFFFF;
+  display: block;
+  background-size: cover;
+  min-height: 150px;
+  padding-top: 60px;
+}
+
+.column-2:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+  opacity: 0.5;
+  opacity: 0.5;
+}
+
+
+.column-3 {
+  background: url(../assets/foodtop/lunch.jpg) no-repeat;
+  color: #FFFFFF;
+  display: block;
+  background-size: cover;
+  min-height: 150px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 60px;
+}
+
+.column-3:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.column-4 {
+  background: url(../assets/foodtop/dinner.jpg) no-repeat;
+  color: #FFFFFF;
+  display: block;
+  background-size: cover;
+  min-height: 150px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 60px;
+}
+
+.column-4:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.meals h4 {
+  font-style: italic;
+  font-size: 20pt;
+}
+
+.meals h5 {
+  font-size: 20pt;
+}
+
+
+/* PAGE 2*/
+
+.page-2 {
+
+}
+
+.fast-food-drinks {
+  margin: 75px 200px 75px 200px;
+
+}
+
+.fast-food {
+  border: 10px solid #fff;
+	box-shadow: -1px 1px 5px 4px #E3E3E3;
+  padding: 1px 1px 1px 1px;
+
+}
+
+.fast-food-1 {
+
+}
+
+.fast-food-2 {
+
+}
+
+.fast-food-3 {
+  min-height: 390px;
+  padding-left: 50px;
+}
+
+.fast-food-3 button {
+  color: #F15A29;
+  background: none;
+  border-top: 1px solid #F15A29;
+  border-left: 1px solid #F15A29;
+  border-right: 1px solid #F15A29;
+  border-bottom: 1px solid #F15A29;
+  font-size: 12pt;
+  letter-spacing: 2;
+  padding: 15px 15px 15px 15px;
+  font-weight: bolder;
+}
+
+.fast-food-3 button:hover{
+  text-decoration: none;
+  color: #F15A29;
+  background: none;
+  border-top: 1px solid #F15A29;
+  border-left: 1px solid #F15A29;
+  border-right: 1px solid #F15A29;
+  border-bottom: 1px solid #F15A29;
+}
+
+.fast-food-3 button:focus{
+  text-decoration: none;
+  color: #F15A29;
+  background: none;
+  border-top: 1px solid #F15A29;
+  border-left: 1px solid #F15A29;
+  border-right: 1px solid #F15A29;
+  border-bottom: 1px solid #F15A29;
+  outline: none;
+}
+
+
+.drinks {
+  padding-right: 50px;
+  text-align: right;
+}
+
+.drinks button {
+  color: #F15A29;
+  background: none;
+  border-top: 1px solid #F15A29;
+  border-bottom: 1px solid #F15A29;
+  border-right: 1px solid #F15A29;
+  border-left: 1px solid #F15A29;
+  font-size: 12pt;
+  letter-spacing: 2;
+  padding: 15px 15px 15px 15px;
+  font-weight: bolder;
+}
+
+.drinks button:hover{
+  text-decoration: none;
+  color: #F15A29;
+  background: none;
+  border-top: 1px solid #F15A29;
+  border-bottom: 1px solid #F15A29;
+  border-right: 1px solid #F15A29;
+  border-left: 1px solid #F15A29;
+}
+
+.drinks button:focus{
+  text-decoration: none;
+  color: #F15A29;
+  background: none;
+  border-top: 1px solid #F15A29;
+  border-bottom: 1px solid #F15A29;
+  border-right: 1px solid #F15A29;
+  border-left: 1px solid #F15A29;
+  outline: none;
+}
+
+.drinks-2 {
+  border: 10px solid #fff;
+	box-shadow: -1px 1px 5px 4px #E3E3E3;
+  padding: 1px 1px 1px 1px;
+}
+
+.drink-img-1{
+  padding: 0px 0px 0px 0px;
+
+}
+.drink-img-2 {
+  padding: 0px 0px 0px 0px;
+}
+
+
+
+/* PAGE 3*/
+
+.page-3 {
+  background: url(../assets/backgrounds/foodsBg.jpg) no-repeat center fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:640px;
+  text-align:center;
+}
+
+.table {
+  background: #FFFFFF;
+  color: #F15A29;
+  width: 100%;
+}
+
+.menu-tabs {
+  margin: 0px 200px 0px 200px;
+  padding-top: 150px;
+  border: 0pt;
+}
+
+.menu-tabs .nav ul:first-child{
+  color: #F15A29;
+}
+
+
+.menu-tabs .nav li {
+  background-color: #d3d3d3;
+  color: #000000;
+  list-style: none;
+  line-height: 100px;
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+
+.menu-tabs .nav li a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.menu-tabs .nav li a:active{
+  color: #F15A29;
+  text-decoration: none;
+  border: 0pt;
+}
+
+
+/* PAGE 4*/
+
+.page-4 {
+
+}
+
+.testimonials {
+  text-align: center;
+  margin: 75px 100px 75px 100px;
+  border: 10px solid #fff;
+	box-shadow: -1px 1px 5px 4px #E3E3E3;
+  padding: 20px 20px 20px 20px;
+}
+
+.testimonials h4 {
+  color: #F15A29;
+}
+
+.customers h6{
+  font-weight: bold;
+}
+
+.about {
+  border-left: 1px solid #E3E3E3;
+}
+
+/* PAGE 5*/
+
+.page-5 {
+
+}
+
+.subscribe {
+  background: url(../assets/backgrounds/subscribe.jpg) no-repeat center fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height:300px;
+  text-align:center;
+}
+
+.subscribe h4 {
+  color: #FFFFFF;
+  padding-top: 100px;
+  font-weight: bolder;
+}
+
+.subscribe form {
+  margin-bottom: 20px;
+}
+
+
+#subscribe-form .has-error .control-label,
+#subscribe-form .has-error .help-block,
+#subscribe-form .has-error .form-control-feedback {
+  color: #ff0033;
+  font-weight: bolder;
+}
+
+#subscribe-form .has-success .control-label,
+#subscribe-form .has-success .help-block,
+#subscribe-form .has-success .form-control-feedback {
+  color: #4F8A10;
+  font-weight: bolder;
+}
+
+#subscribe-form #success {
+  color: #4F8A10;
+  font-weight: bolder;
+}
+
+.sub_form {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+#emailInput {
+  width: 500px;
+  opacity: 0.5;
+  -webkit-text-fill-color: #ffffff;
+  -moz-text-fill-color: #ffffff;
+  -o-text-fill-color: #ffffff;
+  -ms-text-fill-color: #ffffff;
+  background-color: #000000;
+}
+
+.subscribe form button{
+  background: #F15A29;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-top: 1px solid #F15A29;
+  border-bottom: 1px solid #F15A29;
+  border-right: 1px solid #F15A29;
+  border-left: 1px solid #F15A29;
+  border-radius: 4px;
+  padding: 10px 10px 10px 10px;
+  width: 200px;
+  margin-left: 20px;
+}
+
+.subscribe form button:hover{
+  background: #F15A29;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-top: 1px solid #F15A29;
+  border-bottom: 1px solid #F15A29;
+  border-right: 1px solid #F15A29;
+  border-left: 1px solid #F15A29;
+  border-radius: 4px;
+}
+
+.subscribe form button:focus {
+  outline: none;
+  background: #F15A29;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-top: 1px solid #F15A29;
+  border-bottom: 1px solid #F15A29;
+  border-right: 1px solid #F15A29;
+  border-left: 1px solid #F15A29;
+  border-radius: 4px;
+}
+
+
+.footer {
+  padding: 20px;
+  background-color: #F15A29;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+.footer h3{
+  font-weight: bolder;
+  font-size: 20pt;
+}
+
+.footer p{
+  font-size: 8pt;
+
+}
